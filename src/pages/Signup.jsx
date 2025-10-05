@@ -12,7 +12,7 @@ const Signup = () => {
     <div className='w-full h-screen bg-gray-950 flex justify-center items-center flex-col '>
        
        <div className='flex justify-center items-center flex-col border-1 border-gray-100  rounded-lg'>
-         <Heading heading={"Registeration page"} subHeading={"Register to explore the native lannguages and culture"}/>
+         <Heading heading={"Registration page"} subHeading={"Register to explore the native lannguages and culture"}/>
         <Input label={"Enter your name"} type={"text"} placeholder={"alice"}/>
         <Input label={"Enter your email"} type={"email"} placeholder={"alice@gmail.com"} />
         <Input label={"Enter password"} type={"password"} placeholder={"alice123$123"} />

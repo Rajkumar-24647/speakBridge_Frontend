@@ -8,7 +8,7 @@ const ButtonCom = () => {
 </div>
     <div>
       <Link to={"/create-community"}>
-   <button  className='bg-gradient-to-r from-pink-700 to-purple-600 p-2 rounded-lg text-gray-100 hover:scale-105 transition-all duration-300 cursor-pointer'>Craete your community</button>
+   <button  className='bg-gradient-to-r from-pink-700 to-purple-600 p-2 rounded-lg text-gray-100 hover:scale-105 transition-all duration-300 cursor-pointer'>Create your community</button>
       </Link>
     </div>
     </div>

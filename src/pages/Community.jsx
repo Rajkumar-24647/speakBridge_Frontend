@@ -44,7 +44,7 @@ const Community = () => {
           mainHeading={"Hindi Cultural mela"}
           image={"hindi.webp"}
           subHeading={
-            "Join this to about hindi and it's history.Get weekly mocks and quizes and all"
+            "Join this to about hindi and it's history.Get weekly mocks and quizzes and all"
           }
           first={"culture"}
           second={"mocks"}
@@ -52,11 +52,11 @@ const Community = () => {
           number={310}
         />
         <CardCom
-        to={"/gujrati-community"}
+        to={"/gujarati-community"}
           mainHeading={"Gujrati Lang Hub"}
           image={"Gujrat.webp"}
           subHeading={
-            "Add Gujrati culture to your mind and learn languages efficiently by group discussing"
+            "Add Gujarati culture to your mind and learn languages efficiently by group discussing"
           }
           first={"History"}
           second={"events"}

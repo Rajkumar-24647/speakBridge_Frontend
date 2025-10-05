@@ -61,7 +61,7 @@ const PricingSection = () => {
         'Basic quizes',
         'Limited updates',
         'Limited Community support',
-        'Publically available events',
+        'Publicly available events',
       ],
       cta: 'Start Free',
       icon: <PlaneIcon className="h-6 w-6 text-gray-100" />,
