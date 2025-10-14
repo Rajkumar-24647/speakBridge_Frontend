@@ -22,22 +22,24 @@ import CreateCommunity from "./pages/CreateCommunity"
 import UserCard from "./components/UserCard"
 import User from "./components/User"
 import FindUser from "./pages/FindUser"
+import SignupPopup from "./components/SignupPopup"
+
 function App() {
 return (
 <BrowserRouter >
 <Routes>
 
- {/* <Route path="/" element={<FindUser />} /> */}
+ {/* <Route path="/" element={<SignupPopup />} /> */}
  <Route path="/" element={<LandingPage />} />
  <Route path="/signin" element={<Signin />} />
- <Route path="/signup" element={<Signup />} />
+  <Route path="/signup" element={<Signup />} />
  <Route path="/hindi-community" element={<Hindi />} />
  <Route path="/tamil-community" element={<Tamil />} />
  <Route path="/gujrati-community" element={<Gujrati />} />
  <Route path="/marathi-community" element={<Marathi />} />
  <Route path="/south-community" element={<South />} />
  <Route path="/create-community" element={<CreateCommunity />} />
- <Route path="/find-people" element={<FindUser />} />
+ <Route path="/find-people" element={<FindUser />} /> 
 
 
 </Routes>
